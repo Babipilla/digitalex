@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.brown {
+  background: #392f2f !important;
+}
+
+.orange {
+  background-color: rgb(243, 101, 49);
+  border-radius: 50px !important;
+  padding: 4px 7px;
+  color: white;
+}
+
+.orange1 {
+  background-color: rgb(243, 101, 49);
+  font-size: 50px;
+  font-weight: bolder;
+  border-radius: 70px;
+}
+
+.btn-primary {
+  font-weight: bold;
+  background-color: rgb(243, 101, 49);
+  border: none;
+}
+
+.orange-rad {
+  background-color: rgb(243, 101, 49);
+  border-radius: 0;
+  outline: 0;
+  border: 0;
+  color: white;
+  height: 40px;
+  padding: 7px 20px;
+  font-weight: bold;
+}
+.text-justify {
+  text-align: justify;
+}
+
+@media (width < 700px) {
+  .text-justify {
+    text-align: start;
+  }
+}
+
+.list-style {
+  list-style-image: url(pictures/list.png);
+}
+
+.list {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  list-style: decimal-leading-zero;
+  width: 70%;
+}
+.list1 {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  list-style: decimal-leading-zero;
+}
+.list2 {
+  list-style: none;
+}
+li::marker {
+  color: orange;
+}
+.box {
+  padding: 50px;
+}
+.form {
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: rgba(128, 128, 128, 0.179);
+}
